@@ -4,11 +4,13 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@nx-extend/strapi": "^3.5.0"
+  },
   "devDependencies": {
+    "@nrwl/eslint-plugin-nx": "^14.5.10",
     "@nrwl/js": "15.8.7",
     "@nrwl/workspace": "15.8.7",
-    "@nrwl/eslint-plugin-nx": "^14.5.10",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "eslint": "^8.23.1",
