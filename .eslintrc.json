@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["@nrwl/nx", "@typescript-eslint/eslint-plugin", "prettier"],
+  "overrides": [
+    {
+      "extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "prettier/prettier": ["error"],
+        "@typescript-eslint/no-explicit-any": "off"
+      
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": ["plugin:@nrwl/nx/javascript"],
+      "rules": {}
+    }
+  ]
+}

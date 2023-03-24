@@ -1,3 +1,4 @@
-export function add(x:number, y: number,z: number){
-    return x+y;
+export function add(x: number, y: number, z: number) {
+    let c;
+  return x + y;
 }

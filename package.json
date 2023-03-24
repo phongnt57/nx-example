@@ -8,6 +8,18 @@
   "devDependencies": {
     "@nrwl/js": "15.8.7",
     "@nrwl/workspace": "15.8.7",
+    "@nrwl/eslint-plugin-nx": "^14.5.10",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.23.1",
+    "eslint-config-next": "12.2.5",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "7.31.1",
+    "eslint-plugin-react-hooks": "4.6.0",
     "nx": "15.8.7",
     "prettier": "^2.6.2"
   },
