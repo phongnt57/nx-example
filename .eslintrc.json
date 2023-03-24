@@ -13,6 +13,10 @@
       }
     },
     {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {}
+    },
+    {
       "files": ["*.js", "*.jsx"],
       "extends": ["plugin:@nrwl/nx/javascript"],
       "rules": {}
