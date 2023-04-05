@@ -19,6 +19,15 @@
           "production": true
         }
       }
+    },
+   
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "src/**/*.ts"
+        ]
+      }
     }
   },
   "tags": []
