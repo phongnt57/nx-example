@@ -21,11 +21,7 @@
       }
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["apps/cms/**/*.ts"]
-      }
+      "executor": "@nrwl/linter:eslint"
     }
   },
   "tags": []
